@@ -2,6 +2,8 @@ library(shiny)
 library(plotly)
 
 ui <- fluidPage(
+  tags$head(tags$link(rel="shortcut icon",
+                      href="https://i.ibb.co/SsqLNtQ/unicorns-Are-Real.png")),
   
   titlePanel("TIMSS Countries Comparison"),
   
